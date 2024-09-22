@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ddd;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(214, 200, 227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.header {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://hpicheck.com/cars/T6CLM/5cc50d1a57a4ab0233604b5de9e08d49.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > p {
+    font-size: 4rem;
+    color: rgb(214, 200, 227);    
+    text-shadow: 1px 1px 2px #000;
+
+}
+
