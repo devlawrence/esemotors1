@@ -44,12 +44,67 @@ ul > li {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
 
 .header > p {
     font-size: 4rem;
     color: rgb(214, 200, 227);    
     text-shadow: 1px 1px 2px #000;
-
+    
 }
 
+.catalogue {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color:  #000;  
+    margin-top: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    margin-top: 5px;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.details {
+    padding: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.action {
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: rgb(214, 200, 227);
+    text-transform: capitalize;
+    margin-right: 5px;
+    
