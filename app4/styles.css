@@ -17,7 +17,6 @@ body{
 .parent{
     height: 100px;
     width: 100%;
-    background-color: none);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,19 +29,14 @@ body{
     width: 50%;
     font-size: 8rem;
     color:white;
-    background-color: none;
     display: flex;
-    justify-content: left;
-    align-items: left;
-}
+    }
 
 .child2{
     height: 100px;
     width: 50%;
-    background-color: none;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: end;
     font-size: 8rem;
     color:white;
 }
@@ -55,8 +49,7 @@ body{
     align-items: center;
     color: darksalmon;
     font-size: 4rem;
-    font-stretch: 10rem;
-    text-shadow: 2px 1px 3px;
+    text-shadow: 6px 3px 3px gray;
     text-align: center;
     text-decoration-thickness: 10px;
 }
@@ -70,7 +63,7 @@ body{
     align-items: center;
     margin-bottom: 5x;
     font-size: 5rem;
-    text-shadow: 5px 3px;
+    text-shadow: 5px 6px 3px gray;
     color: darksalmon;
 }
 
