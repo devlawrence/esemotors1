@@ -5,6 +5,7 @@
        
 }
 body{
+    background-image: url("https://img.freepik.com/free-vector/watercoloral-floral-theme-background_23-2148418716.jpg?t=st=1727680733~exp=1727684333~hmac=1a948e8c65d7a71da1453045e5d21324575bce33178afccf1aca8a667df0a393&w=996");
     height: 100%;
     width: 100%;
     display: flex;
@@ -14,19 +15,21 @@ body{
 }
 
 .parent{
-    height: 50px;
+    height: 100px;
     width: 100%;
     background-color: none);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .child1{
-    height: 40px;
-    width: 50;
-    color: blueviolet;
+    height: 100px;
+    width: 50%;
+    font-size: 8rem;
+    color:white;
     background-color: none;
     display: flex;
     justify-content: left;
@@ -34,46 +37,51 @@ body{
 }
 
 .child2{
-    height: 40px;
-    width: 50;
-    color: blueviolet;
+    height: 100px;
+    width: 50%;
     background-color: none;
     display: flex;
     justify-content: right;
     align-items: right;
+    font-size: 8rem;
+    color:white;
 }
 
 .greetings{
-    height: 80px;
+    height: 150px;
     width: 100%;
     display: flex;  
     justify-content: center;
     align-items: center;
-    color: red;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-style: italic;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darksalmon;
+    font-size: 4rem;
+    font-stretch: 10rem;
     text-shadow: 2px 1px 3px;
+    text-align: center;
+    text-decoration-thickness: 10px;
 }
 
 .wishings{
-    height: 50px;
+    height: 200px;
     width: 100%;
     background-color: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5x;
+    font-size: 5rem;
+    text-shadow: 5px 3px;
+    color: darksalmon;
 }
 
 .from{
-    height: 50;
+    height: 200;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    font-size: 5rem;
 
 }
 .parent1{
@@ -87,21 +95,37 @@ body{
 }
 
 .child3{
-    height: 40px;
-    width: 50;
-    color: blueviolet;
+    height: 30px;
+    width: 20%;
+    color: white;
     background-color: none;
     display: flex;
     justify-content: left;
     align-items: left;
+    font-size: 8rem;
 }
 
 .child4{
     height: 40px;
-    width: 50;
-    color: blueviolet;
+    width: 50%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: darksalmon;
+    padding: 100px 00px 00px;
+    text-align: center;
+}
+
+.child5{
+    height: 30px;
+    width: 20%;
     background-color: none;
     display: flex;
     justify-content: right;
     align-items: right;
-}
+    font-size: 8rem;
+    color:white;
+    
+    
