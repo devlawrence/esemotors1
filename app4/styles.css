@@ -1,0 +1,107 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    height: 50px;
+    width: 100%;
+    background-color: none);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;margin-bottom: 20px;
+}
+
+.child1{
+    height: 40px;
+    width: 50;
+    color: blueviolet;
+    background-color: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.child2{
+    height: 40px;
+    width: 50;
+    color: blueviolet;
+    background-color: none;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.greetings{
+    height: 80px;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 1px 3px;
+}
+
+.wishings{
+    height: 50px;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.from{
+    height: 50;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.parent1{
+    height: 50px;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child3{
+    height: 40px;
+    width: 50;
+    color: blueviolet;
+    background-color: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.child4{
+    height: 40px;
+    width: 50;
+    color: blueviolet;
+    background-color: none;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
