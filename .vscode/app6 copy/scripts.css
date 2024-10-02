@@ -47,19 +47,20 @@ body{
 
 .right{
     width: 45%;
-    height: 500px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
     color: white;
     border-radius: 15px;
-    text-align: center;
+    text-align: .left;
     font-size: 1rem;
+    padding: 5px;
 }
 
 .part{
-    width: 100%;
+    width: 98%;
     height: 140px;
     display: flex;
     justify-content: center;
@@ -68,6 +69,11 @@ body{
     border-radius: 15px;
     text-align: center;
     font-size: 1.5rem;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blue;
+    
+    
 }
 
 .bottom{
