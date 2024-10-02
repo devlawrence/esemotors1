@@ -36,15 +36,35 @@ body{
     width: 45%;
     height: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     background-color: rgb(197, 195, 209);
     color: white;
-    border-radius: 15px;
+    border-radius: 40px;
     text-align: left;
     font-size: 1.5rem;
-    text
+    
 }
 
+p.instruction{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-size: xx-large;
+    color: brown;
+}
+
+p.list{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: xx-large;
+    color: rgb(67, 42, 165);
+    padding-top: 40px;
+}
 .right{
     width: 45%;
     height: 490px;
@@ -72,8 +92,6 @@ body{
     border-style: dotted;
     border-width: 5px;
     border-color: blue;
-    
-    
 }
 
 .bottom{
