@@ -1,0 +1,31 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+    color: black;
+}
+
+.left, .middle, .right {
+    display: flex;
+    align-items: center;
+}
+
+.left i, .right i {
+    margin-right: 10px;
+
+}
+
+.songlist{
+    text-align: center;
+
+}
