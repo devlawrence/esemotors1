@@ -1,14 +1,17 @@
 .container{
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        border:6px solid #9e1420 
+        width: 80%; 
+        height: 1000hv;
+        box-sizing: border-box; 
+        padding: 10px;
+        margin-bottom: 50px;
 }
 
     .body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: o;    
+    padding: o; 
 }
 
 .status-bar{
@@ -16,6 +19,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 900px;
+    margin-left: 100px;
     color: black;
 }
 
@@ -24,6 +29,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 900px;
+    margin-left: 100px;
 }
 
 .left, .middle, .right{
@@ -32,38 +39,40 @@
 }
 
 .horizontal-line{
-    width: 700px;
-    height: 20px;
+    width: 400px;
+    height: 30px;
     background-color: gray;
     border-radius: 10px;
    
 }
-
 .artist-image {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
-    height: 100%;
-    position: relative;    
+    width: 800px
+    height: 100px;
+    position: relative;   
+    margin-bottom: 5px; 
 }
 
 .rectangle-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     position: relative;
     background-color: black;
     overflow: hidden;
     padding-top: 20px;
+    margin-bottom: 00px;
 }
 
 .custom-image{
     width: 80%;
-    height: 80%;
-    object-fit: cover;   
+    height: 500px;
+    object-fit: cover;  
+    margin-bottom: 40px; 
 }
 
 .musicl-controls-top{
@@ -79,15 +88,52 @@
 }
 
 .horizontal-line1{
-    display: blo;
+    display: flex;
+    flex-direction: colum;  
     justify-content: center;
     align-items: flex-start;
-    width: 700px;
-    height: 20px;
+    width: 500px;
+    height: 30px;
     background-color: gray;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 50px;  
+    margin-left: 250px;
+}
+
+.horizontal-line2{
+    display: flex;
+    flex-direction: colum;  
+    justify-content: center;
+    align-items: flex-start;
+    width: 700px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 10px;
+   
+    margin-top: 50px;  
+    margin-right: 100px;
+}
+
+.heart{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-content: right;
+   font-size: 2rem;
+   margin-right: 150px;   
+}
+
+.horizontal-line3{
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 7px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;  
+    margin-right: 100px;
 }
 
 .controls{
@@ -100,8 +146,86 @@
 .lines{
     display: flex;
     flex-direction: column;
-
 }
+
+.progress-contaner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.progress-bar{
+    height: 7px;
+    width: 700px;
+    background-color: solid gray;
+    position: relative;
+    border-radius: 4px;
+    margin: 10px 0px;
+    margin-top: 20px;   
+}
+
+.progress-bar-fill{
+    width: 30%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-circle{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 590px;
+    margin-top: 15px;
+}
+
+.time-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 700px;
+    font-size: 1.5rem;
+}
+
+.media-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rempx;
+}
+
+.left{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 24px;
+    margin-right: 60px;
+    margin-left: 60px; 
+} 
+
+
+
+
+
+
+
+
 
 
 
@@ -117,4 +241,9 @@
     padding: 10px;
     background-color: red; 
     color: blue;
+}
+
+.left{
+    width: 40px;
+    height: 40px;
 }
