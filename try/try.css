@@ -49,7 +49,7 @@ border-radius: 10px;
 display: flex;
 justify-content: center;
 align-items: flex-start;
-width: 800px
+width: 500px
 height: 100px;
 position: relative;   
 margin-bottom: 5px; 
@@ -59,8 +59,8 @@ margin-bottom: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 600px;
-height: 600px;
+width: 500px;
+height: 400px;
 position: relative;
 background-color: black;
 overflow: hidden;
@@ -70,7 +70,7 @@ margin-bottom: 00px;
 
 .custom-image{
 width: 80%;
-height: 500px;
+height: 300px;
 object-fit: cover;  
 margin-bottom: 40px; 
 }
@@ -84,7 +84,6 @@ padding: 10px;
 
 .middle{
 display: flex;
-jus
 }
 
 .horizontal-line1{
@@ -200,6 +199,8 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 font-size: 3rempx;
+margin-right: 590px;
+
 }
 
 .left{
