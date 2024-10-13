@@ -1,18 +1,22 @@
 *{
-    padding: 0PX;
-    border: 0px;
+    margin: 00px;
+    padding: 00px;
 }
 .container{
     display: flex;
     flex-direction: column;
+    width: 80%; 
     height: 100vh;
-    border:6px solid #9e1420 
+    width: 900px;
+    box-sizing: border-box;
+    border: 6px solid #9e1420; 
+    padding: 20px;
 }
 
 .body{
 font-family: Arial, Helvetica, sans-serif;
 margin: 0;
-padding: 0;    
+padding: o;    
 }
 
 .status-bar{
@@ -36,8 +40,8 @@ align-items: center;
 }
 
 .horizontal-line{
-width: 700px;
-height: 20px;
+width: 400px;
+height: 30px;
 background-color: gray;
 border-radius: 10px;
 }
@@ -45,10 +49,7 @@ border-radius: 10px;
 .artist-image {
 display: flex;
 justify-content: center;
-align-items: flex-start;
-width: 100%;
-height: 500px;
-position: relative;    
+align-items: flex-start;    
 }
 
 .rectangle-box {
@@ -56,7 +57,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 400px;
-height: 500px;
+height: 400px;
 position: relative;
 background-color: black;
 overflow: hidden;
@@ -64,58 +65,45 @@ padding-top: 20px;
 }
 
 .custom-image{
-width: 80%;
-height: 80%;
-object-fit: cover;   
+width: 90%;
+height: 300px;
+object-fit: cover;  
 }
 
-.musicl-controls-top{
+.horizontal-line1{
 display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
+flex-direction: colum;  
+justify-content: center;
+align-items: flex-start;
+width: 500px;
+height: 30px;
+background-color: gray;
+border-radius: 10px;
+margin-bottom: 80px;
+margin-top: 50px;  
+margin-left: 250px;
 }
 
-.middle{
+.horizontal-line2{
 display: flex;
-jus
+flex-direction: colum;  
+justify-content: center;
+align-items: flex-start;
+width: 800px;
+height: 30px;
+background-color: gray;
+border-radius: 10px;
+margin-top: 50px;  
+margin-right: 100px;
 }
 
-
-.just{
-    height: 200px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: left;
-    align-items: left;    
+.last{
+    margin-left: 150px;
 }
-
-.first {
-    width: 500px;
-    border: 5px solid;
-    align-items: left;
-    align-content: left;
-    border-radius: 10px;
-}
-
-.second {
-    width: 400px;
-    border: 5px solid;
-    border-radius: 10px;
-}
-   
-.plusone0{
-    display: flex;
-    flex-direction: row;
-    align-content: left;
-    text-align: left;
-}
-
 
 .plusone1{
-    font-size: 2rem;
-    margin: 0px 20px;
+    font-size: 3rem;
+    margin: 0px 30px;
 }
 
 .plusone22{
@@ -123,43 +111,28 @@ jus
     flex-direction: row;
     align-content: left;
     text-align: left;
-}
-
-.first22 {
-    width: 800px;
-    border: 5px solid;
-    border-radius: 10px;
+    color: gray;
 }
 
 .first14 {
-    width: 600px;
+    width: 500px;
     border: 5px solid;
     border-radius: 10px;
+    margin-top: 30px;
+    color: gray;
 }
 
-.linehr{
-    display: flex;
-    flex-direction: row;
-    align-content: left;
-    text-align: left;
-}
 
-.linehr1 {
-    width: 800px;
-    border: 5px solid;
-    border-radius: 10px;
-    flex-direction: row;
-    align-content: left;
-    text-align: left;
-}
 
-.linehr2 {
-    width: 600px;
-    flex-direction: row;
-    align-content: left;
-    text-align: left;
-    border: 5px solid;
-    border-radius: 10px;
+.plus55{
+    align-content: center;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-style: solid;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: -40px;
 }
 
 
