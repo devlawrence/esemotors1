@@ -1,3 +1,7 @@
+*{
+    border: 00px;
+    padding: 00px;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -10,9 +14,7 @@
 }
 
 .body{
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-padding: o;    
+font-family: Arial, Helvetica, sans-serif;   
 }
 
 .status-bar{
@@ -21,22 +23,35 @@ justify-content: space-between;
 align-items: center;
 padding: 10px;
 color: black;
+font-size: 3rem;
 }
 
 .nav-bar{
 display: flex;
 justify-content: space-between;
-align-items: center;
+align-items: left;
 padding: 10px;
+font-size: 3rem;
 }
 
-.left, .middle, .right{
+.left{
 display: flex;
-align-items: center;
 }
+
+.nleft{
+    display: flex;
+    margin-left: 50px;
+    }
+
+
+.nmiddle{
+    display: flex;
+    align-items: left;
+    margin-right: 290px;
+    }
 
 .horizontal-line{
-width: 400px;
+width: 500px;
 height: 30px;
 background-color: gray;
 border-radius: 10px;
@@ -55,7 +70,7 @@ align-items: center;
 width: 400px;
 height: 400px;
 position: relative;
-background-color: black;
+background-color: gray;
 overflow: hidden;
 padding-top: 20px;
 }
@@ -94,11 +109,12 @@ margin-right: 100px;
 }
 
 .first {
-    width: 600px;
-    border: 5px solid;
+    width: 500px;
+    border: 15px solid;
     align-items: left;
     align-content: left;
     border-radius: 10px;
+    color: gray;
 }
 
 .plusone{
@@ -106,6 +122,7 @@ margin-right: 100px;
     flex-direction: row;
     align-content: left;
     text-align: left;
+    margin-left: 100px;
 }
 
 .plusone11{
@@ -113,11 +130,14 @@ margin-right: 100px;
     flex-direction: row;
     align-content: left;
     text-align: left;
+    margin-left: 100px;
 }
 
 .plusone1{
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0px 30px;
+    color: gray;
+    
 }
 
 .plusone22{
@@ -125,12 +145,14 @@ margin-right: 100px;
     flex-direction: row;
     align-content: left;
     text-align: left;
+    margin-left: 100px;
 }
 
 .first22 {
-    width: 800px;
-    border: 5px solid;
+    width: 700px;
+    border: 15px solid;
     border-radius: 10px;
+    color: gray;
 }
 
 .plusone33{
@@ -141,9 +163,10 @@ margin-right: 100px;
 }
 
 .first14 {
-    width: 500px;
-    border: 5px solid;
+    width: 400px;
+    border: 15px solid;
     border-radius: 10px;
+    color: gray;
 }
 
 
@@ -155,25 +178,17 @@ margin-right: 100px;
 }
 
 .first15 {
-    width: 700px;
-    border: 5px solid;
+    width: 600px;
+    border: 15px solid;
     border-radius: 10px;
+    color: gray;
 }
 
-.plus{
-    display: flex;
-    margin: 0px 30px;
-}
-
-.plus{
-    display: flex;
-    font-size: 2rem;
-}
- 
 .plus2{
-    width: 800px;
-    border: 5px solid;
+    width: 700px;
+    border: 15px solid;
     border-radius: 10px;
-    margin-right: 100px;
+   
+    color: gray;
 }
 
