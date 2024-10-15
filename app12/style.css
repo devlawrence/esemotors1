@@ -45,6 +45,7 @@ main{
     width: 700px;
     height: 400px;
     color: white;
+    margin-top: 200px;
 
 }
 
@@ -103,14 +104,25 @@ main > .brand{
     color: #66B7FF;
 }
 
+.group{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
 bottom{
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     height: 70px;
     background-color: #171717;
-    margin-top: 500px;
+    margin-top: 280px;
     padding-left: 50px;
     border-width: 5px;
     border-color: #b4bbd2;
@@ -138,7 +150,11 @@ footer{
 }
  
 .note1{
-    padding-left: 500px;
+   
     padding-right: 100px;
     margin-right: 500px;
+}
+
+.leaf{
+     padding-left: 500px;
 }
