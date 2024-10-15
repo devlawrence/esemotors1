@@ -7,6 +7,11 @@
 body{
     background-color: #202124;
     width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
@@ -17,8 +22,8 @@ nav{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    
-   
+    position: fixed;
+    top: 0;   
 }
 
 ul{
@@ -31,6 +36,109 @@ ul{
 
 ul > li{
     padding-left: 30px;
-  
+}
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    color: white;
+
+}
+
+main > .brand{
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+.input-box > .search{
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 600px;
+    height: 70px;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+.before{
+    position: relative;
+    left: 50px;
+}
+
+.after{
+    position: relative;
+    right: 70px;
+}
+
+.aftermic{
+    position: relative;
+    right: 50px;
+}
+
+.action{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action > button{
+    background-color: #303134;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    margin: 6px;
+    font-size: 22px;
+}
+
+.language{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.language > span{
+    color: #66B7FF;
+}
+
+bottom{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    height: 70px;
+    background-color: #171717;
+    margin-top: 500px;
+    padding-left: 50px;
+    border-width: 5px;
+    border-color: #b4bbd2;
+}
+
+bottom > .down{
+font-size: 2rem;
+color: white;
+margin: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: #171717;
+    padding: 0px 50px;
+    border-color: #202124;
+    margin-top: 2px;
+}
+ 
+.note1{
+    padding-left: 500px;
+    padding-right: 100px;
+    margin-right: 500px;
 }
