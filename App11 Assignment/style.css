@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 80%; 
-    height: auto;
+    height: 1600px;
     width: 900px;
     box-sizing: border-box; 
     padding: 20px;
@@ -171,6 +171,56 @@ body{
     border-radius: 4px;
 }
     
+.progress-circle{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: -7px;
+    translatex: -50px;
+}
+
+.time-label{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 1.5rem;
+}
+.media-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.media-controls .left,
+.media-controls .middle,
+.media-controls .right{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.media-controls .middle{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.icons-container{
+    display: flex;
+    width: 120px;   
+}
+
+.icons-container. {
+    font-size: 24px;
+    cursor: pointer;
+    width: ;
+}
+
+
+
 
 
 

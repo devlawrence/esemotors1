@@ -45,7 +45,7 @@ main{
     width: 700px;
     height: 400px;
     color: white;
-    margin-top: 200px;
+    margin-top: 1px;
 
 }
 
@@ -150,11 +150,9 @@ footer{
 }
  
 .note1{
-   
-    padding-right: 100px;
-    margin-right: 500px;
+    margin-right: 200px;
 }
 
 .leaf{
-     padding-left: 500px;
+     padding-left: 200px;
 }
